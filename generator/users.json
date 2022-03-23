@@ -1,0 +1,42 @@
+[{
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "name",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required|min:2|max:255"
+    },
+    {
+        "name": "email",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required|min:2|max:255"
+    },
+    {
+        "name": "email_verified_at",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required|min:2|max:255"
+    },
+    {
+        "name": "provider_id",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required|min:2|max:255"
+    },
+    {
+        "name": "provider",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required|min:2|max:255"
+    }
+]
